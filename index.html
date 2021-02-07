@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arapey:ital@1&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="/js/main.js" type="module"></script>
+    <title>Today's Plans</title>
+</head>
+<body>
+    <main>
+        <div id="container">
+        <section class="newItemEntry">
+            <div class="1">
+            <form id="itemEntryForm">
+                <label for="newItem"><p class="new">What are you doing today?</p></label>
+                    <input type="text" size="40" autocomplete="off" placeholder="Plan something cool..." id="newItem" tabindex="0"/>
+                <button id="addItem" class="button" title="Add new item" aria-label="Add new item to list" tabindex="0" >+</buton>
+            </form>
+            </section>
+        </section>
+        <section class="listContainer">
+            <div class="listTitle">
+                <h1>My choices</h1>
+                <button id="clearItems" class="button" title="Clear the list" aria-label="Remove all items from the list" tabindex="0">Clear</button>
+            </div>
+            <hr />
+            <div id="listItems">
+                <div class="item">
+
+                </div>                
+                <div class="item">
+
+                </div>
+            </div>
+        </section>
+        </div>
+    </main>
+</body>
+</html>
